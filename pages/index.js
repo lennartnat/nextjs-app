@@ -18,7 +18,7 @@ const Home = () => {
         <br />
         <Button link={'https://github.com/lennartnat'}>Github</Button>
         <Button link={'https://www.linkedin.com/in/aldrine-lennart-yap/'}>LinkedIn</Button>
-        <Button link={'/nature'}>Nature</Button>
+        <Button link={'/Nature'}>Nature</Button>
       </div>
     </div>
   );
