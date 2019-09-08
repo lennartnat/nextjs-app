@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-app",
+  "version": "1.0.0",
+  "description": "next-js playground",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennartnat/nextjs-app.git"
+  },
+  "keywords": [
+    "next"
+  ],
+  "author": "Aldrine Lennart Yap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lennartnat/nextjs-app/issues"
+  },
+  "homepage": "https://github.com/lennartnat/nextjs-app#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^9.0.5",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}

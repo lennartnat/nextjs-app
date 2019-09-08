@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+%centered {
+  text-align: center;
+}
+
+.greeting {
+  @extend %centered;
+  font-size: 70px;
+}
+
+.etc {
+  @extend %centered;
+}
+
+.home {
+  margin-top: 150px;
+}
+
+.nature {
+  margin-top: 20px;
+}
+
+.natureDiv {
+  text-align: center;
+}
+.natureImg {
+  height: 720px;
+}
