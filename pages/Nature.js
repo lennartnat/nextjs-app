@@ -1,13 +1,12 @@
-import Image from '../components/Image';
-import Button from '../components/Button';
+import { Button, Image } from 'components';
 import style from './styles.scss';
 
 const Nature = () => (
   <div className={style.nature}>
-    <Button link={'/'}>Home</Button>
+    <Button link={'/'}>←</Button>
     <div className={style.natureDiv}>
       <p>I got bored and drew this on my laptop:</p>
-      <Image imgId={'IMG_NATURE'} styles={style.natureImg} />
+      <Image imgId={'IMG_NATURE'} />
     </div>
   </div>
 );

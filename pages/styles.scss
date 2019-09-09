@@ -2,21 +2,29 @@ body {
   font-family: sans-serif;
 }
 
-%centered {
+%center {
   text-align: center;
 }
 
+.home {
+  @extend %center;
+  margin-top: 150px;
+}
+
 .greeting {
-  @extend %centered;
   font-size: 70px;
 }
 
 .etc {
-  @extend %centered;
+  @extend %center;
 }
 
-.home {
-  margin-top: 150px;
+.btn_github {
+  background: #7b53a0;
+}
+
+.btn_nature {
+  background: #41a39a;
 }
 
 .nature {
@@ -24,8 +32,5 @@ body {
 }
 
 .natureDiv {
-  text-align: center;
-}
-.natureImg {
-  height: 720px;
+  @extend %center;
 }

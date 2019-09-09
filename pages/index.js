@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from '../components/Button';
+import { Button } from 'components';
 import style from './styles.scss';
 
 const Home = () => {
@@ -16,9 +16,13 @@ const Home = () => {
         <p>I'm still thinking about what to build.</p>
         <p>For the meantime, have a look at the following:</p>
         <br />
-        <Button link={'https://github.com/lennartnat'}>Github</Button>
+        <Button link={'https://github.com/lennartnat'} styles={style.btn_github}>
+          Github
+        </Button>
         <Button link={'https://www.linkedin.com/in/aldrine-lennart-yap/'}>LinkedIn</Button>
-        <Button link={'/Nature'}>Nature</Button>
+        <Button link={'/Nature'} styles={style.btn_nature}>
+          Nature
+        </Button>
       </div>
     </div>
   );
